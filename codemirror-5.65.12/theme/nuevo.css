@@ -1,0 +1,63 @@
+/* SynthWave '84 Code Mirror Theme */
+  /*
+
+    Name:       synthwave84
+    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
+
+    Original synthwave84 color scheme by Zeno Rocha (https://github.com/zenorocha/synthwave84-theme)
+
+*/
+
+
+.cm-s-synthwave84.CodeMirror, .cm-s-synthwave84 .CodeMirror-gutters {
+  background-color: #2a2139 !important;
+  color: #bbbbbb !important;
+  border: none;
+  }
+.cm-s-synthwave84 .CodeMirror-gutters { color: #2a2139; }
+.cm-s-synthwave84 .CodeMirror-cursor { border-left: solid thin #f97e72; }
+.cm-s-synthwave84 .CodeMirror-linenumber { color: #ffffffcc; }
+.cm-s-synthwave84 .CodeMirror-selected { background: #f92aad36; }
+.cm-s-synthwave84 .CodeMirror-line::selection, .cm-s-synthwave84 .CodeMirror-line > span::selection, .cm-s-synthwave84 .CodeMirror-line > span > span::selection { background: #f92aad36; }
+.cm-s-synthwave84 .CodeMirror-line::-moz-selection, .cm-s-synthwave84 .CodeMirror-line > span::-moz-selection, .cm-s-synthwave84 .CodeMirror-line > span > span::-moz-selection { background: #f92aad36; }
+.cm-s-synthwave84 span.cm-comment { color: #848bbd; }
+.cm-s-synthwave84 span.cm-string, .cm-s-synthwave84 span.cm-string-2 { color: #ff8b39; }
+.cm-s-synthwave84 span.cm-number { color: #2ee2fa; }
+.cm-s-synthwave84 span.cm-variable { color: #f92aad;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  backface-visibility: hidden;}
+.cm-s-synthwave84 span.cm-variable-2 { color: #f92aad;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  backface-visibility: hidden;}
+.cm-s-synthwave84 span.cm-def { color: #f92aad;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  backface-visibility: hidden;}
+.cm-s-synthwave84 span.cm-operator { color: rgba(255, 255, 255, 0.93); }
+.cm-s-synthwave84 span.cm-keyword { color: #f4eee4;
+  text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0572, 0 0 2px #f39f0572;
+  backface-visibility: hidden; }
+.cm-s-synthwave84 span.cm-atom { color: #f97e72; }
+.cm-s-synthwave84 span.cm-meta {  color: #f4eee4;
+  text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0572, 0 0 2px #f39f0572;
+  backface-visibility: hidden; }
+.cm-s-synthwave84 span.cm-tag { color: rgba(255, 255, 255, 0.93);}
+.cm-s-synthwave84 span.cm-attribute { color: #f92aad;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  backface-visibility: hidden; }
+.cm-s-synthwave84 span.cm-qualifier { color: #f92aad;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  backface-visibility: hidden;}
+.cm-s-synthwave84 span.cm-property { color: #fdfdfd;
+  text-shadow: 0 0 2px #001716, 0 0 3px #03edf972, 0 0 5px #03edf972, 0 0 8px #03edf972;
+  backface-visibility: hidden;}
+.cm-s-synthwave84 span.cm-builtin { color: #f92aad;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  backface-visibility: hidden; }
+.cm-s-synthwave84 span.cm-variable-3, .cm-s-synthwave84 span.cm-type { color: #fff5f6;
+  text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c72, 0 0 5px #fc1f2c72, 0 0 25px #fc1f2c72;
+  backface-visibility: hidden; }
+
+.cm-s-synthwave84 .CodeMirror-activeline-background { background: rgba(255,255,255,0.1); }
+.cm-s-synthwave84 .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
+
+  

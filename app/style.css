@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Monaco', 'Fira Code', 'Source Code Pro', 'Hack';
+    margin: 0;
+    padding: 0;
+                                                
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+.gutter {
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    background: linear-gradient(90deg, 
+    #2a2139 calc(50% - 1px), 
+    #4d4d4d calc(50%), 
+    #2a2139 calc(50% + 1px)
+);
+    cursor: col-resize;
+    /* width: 5px !important; */
+}
+
+#nav{
+    height: 30px;
+    -webkit-app-region: drag;
+    background-color: #2a2139;
+    border-bottom: solid 0.5px #4d4d4d;
+}
+/* .gutter.gutter-horizontal :first-child {
+    border: solid 1px red;
+} */

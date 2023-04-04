@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.cdnfonts.com/css/monaco" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.cdnfonts.com/css/dejavu-sans-mono" rel="stylesheet">
+    <link rel="stylesheet" href="./../codemirror-5.65.12/lib/codemirror.css">
+    <link rel="stylesheet" href="./../codemirror-5.65.12/theme/dracula1.css">
+    <link rel="stylesheet" href="./../codemirror-5.65.12/theme/nuevo.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./../codemirror-5.65.12/addon/hint/show-hint.css">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" /> -->
+</head>
+<body>
+    <div id="nav">  </div>
+    <div  class="split h-screen">
+    <div id="split-0" >
+        <textarea id="input-js" class="h-full"></textarea>
+    </div>
+
+    <div id="split-1" >
+        <textarea id="output-js" class="h-full"></textarea>
+    </div>
+</div>
+        <script src="./../lib/split.min.js"></script>
+        <script src="./../lib/esprisma.js"></script>
+        <script src="./../codemirror-5.65.12/lib/codemirror.js"></script>
+        <script src="./../codemirror-5.65.12/mode/javascript/javascript.js"></script>
+        <script src="./../codemirror-5.65.12/addon/hint/show-hint.js"></script>
+        <script src="./../codemirror-5.65.12/addon/hint/javascript-hint.js"></script>
+        
+        <script src="./renderer.js" ></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "runjavascript",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./source/",
+    "css-dev": "npx tailwindcss -i ./app/style.css -o ./app/output.css --watch",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder build --mac"
+  },
+  "build": {
+    "appId": "run.javascript.com",
+    "mac": {
+      "category": "development.javascript"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.2.0",
+    "electron-builder": "^23.6.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "codemirror": "^6.0.1",
+    "electron-util": "^0.17.2"
+  }
+}
